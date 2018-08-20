@@ -47,7 +47,6 @@ newclient () {
 	echo "</tls-auth>" >> ~/$1.ovpn
 }
 
-else
 	clear
 	echo ""
 	read -p "IP Server : " -e -i $IP IP
